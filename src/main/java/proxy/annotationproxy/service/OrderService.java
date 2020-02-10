@@ -9,6 +9,7 @@ import proxy.annotationproxy.Transaction;
  */
 public interface OrderService {
 
+
     @Transaction
     void save();
 }
