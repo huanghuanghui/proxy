@@ -8,13 +8,6 @@ import proxy.annotationproxy.Transaction;
  * @description
  */
 public interface OrderService {
-
-
-
-
-
-
-
     @Transaction
     void save();
 }
